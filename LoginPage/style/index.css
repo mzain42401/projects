@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Righteous', cursive;
+}
+html{
+    font-size: 62.5%;
+}
+#home{
+    width: 100%;
+    height:60.9rem;
+    background: linear-gradient(200deg, #f69d3c, #ebf8e1, #3f87a6);
+}
+#navBar{
+    border: .2rem solid beige;
+    background: #ebf8e1;
+    width: 100%;
+    height: 5.5rem;
+    position: fixed;
+}
+#logo{
+    position: absolute;
+    top: .5rem;
+    left: 3rem;
+    font-size: 3.5rem;
+    color: #3f87a6 ;
+}
+#MZ{
+    font-family: 'Rowdies', cursive;
+    font-weight: bold;
+    color: #f69d3c ;
+}
+ul{
+    padding: auto;
+    position: absolute;
+    right: 4rem;
+    top: 1.9rem;
+    list-style: none;
+    display: inline-flex;
+
+}
+li{
+    margin-left: 3rem;
+}
+.color1{
+    color: #f69d3c;
+    text-decoration: none;
+    padding: .5rem;
+}
+.color1:hover{
+    border-top: .3rem solid #f69d3c;
+
+}
+.color2{
+    color: #3f87a6;
+    text-decoration: none;
+    padding: .5rem;
+
+}
+.color2:hover{
+    border-top: .3rem solid #3f87a6;
+
+    
+}
+
+#homeContent{
+    width: 50%;
+    height: 40rem;
+    position: relative;
+    top: 20rem;
+    left: 10rem;
+    font-weight: lighter;
+}
+
+h1{
+font-weight: lighter;
+color:#50504f ;
+font-size: 4rem;
+
+}
+#MZainAli{
+    color: #3f87a6;
+}
+#web-developer{
+    font-size: 8rem;
+    color: #f2942f;
+}
+#PAK{
+    font-size: 2.5rem;
+    color: #50504f;
+    position: absolute;
+    top: 15rem;
+}
+#subscribe{
+    position: absolute;
+    letter-spacing: .1rem;
+    width: 10rem;
+    text-align: center;
+    font-size: 2rem;
+    top: 22rem;
+    font-weight: bold;
+    padding: 1rem; 
+    border-right: .4rem solid #50504f;
+    border-left: .4rem solid #50504f;
+    border-radius: 5rem;
+    color: #095372;
+    box-shadow: -1.5rem -1.5rem 1.5rem rgb(255, 255, 255, 0.2),
+    1.5rem 1.5rem 1.5rem rgb(0, 0, 0, 0.1),
+        inset -.5rem -.5rem .5rem rgb(255, 255, 255, 0.2),
+        inset .5rem .5rem .5rem rgb(0, 0, 0, 0.1);
+}
+@media(max-width:1500px) {
+    html{
+    font-size: 32.5%;
+
+    }
+    #web-developer{
+        font-size: 6rem;
+    }
+}
+@media(max-width:900px) {
+    html{
+    font-size: 32.5%;
+
+    }
+    #web-developer{
+        font-size: 6rem;
+    }
+}
+@media(max-width:530px) {
+    html{
+    font-size: 22.5%;
+
+    }
+    
+}
+@media(max-width:350px) {
+    html{
+    font-size: 12.5%;
+
+    }
+    
+}

@@ -1,42 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style/signUp.css">
+    <link rel="stylesheet" href="./style/login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div id="bg-img">
         <div id="goBack"><a href="./index.html">GO BACK</a> </div>
         <div id="centerdiv">
             <img src="./images/img.png" alt="user" id="user">
-            <h4>USER SIGNUP</h4>
+            <h2>USER LOGIN</h2>
             <form action="" method="get">
                 <div>
-                    <input type="text" name="userFname" class="input" placeholder="First name">
-                </div>
-                <div>
-                    <input type="text" name="userLname" class="input" placeholder="Last name" id="Lname">
-                </div><div>
-                    <input type="date" name="date" class="input" placeholder="xx / xx /xxxx" id="date">
-                </div>
-                <div>
-                    <input type="email" name="email" class="input" id="email" placeholder="abc@xyz.com">
+                    <input type="text" name="username" class="input" placeholder="username">
                 </div>
                 <div>
                     <input type="password" name="password" class="input" id="password" placeholder="password">
                 </div>
-               
                 <div>
-                    <button id="btn" type="submit">SignUp</button>
+                    <button id="btn" type="submit">LOGIN</button>
                 </div>
             </form>
+            <div>
+                <h5>If, don't have an account <a class="signUp" href="./signUp.html">SignUp</a></h5>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
